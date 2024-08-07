@@ -11,7 +11,7 @@ group :development do
 
   # building extensions
   gem "rake-compiler", "1.2.7"
-  gem "rake-compiler-dock", "1.5.1"
+  gem "rake-compiler-dock", "1.5.2"
 
   # parser generator
   gem "rexical", "1.0.8"
@@ -24,9 +24,9 @@ group :development do
   gem "simplecov", "= 0.21.2"
 
   # rubocop
-  gem "standard", "1.39.0", require: false
+  gem "standard", "1.39.2", require: false
   gem "rubocop", "1.64.1", require: false
-  gem "rubocop-minitest", "0.35.0", require: false
+  gem "rubocop-minitest", "0.35.1", require: false
   gem "rubocop-packaging", "0.5.2", require: false
   gem "rubocop-performance", "1.21.1", require: false
   gem "rubocop-rake", "0.6.0", require: false
