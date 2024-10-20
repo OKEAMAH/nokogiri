@@ -12,8 +12,8 @@ require "pathname"
 
 # helpful constants
 PACKAGE_ROOT_DIR = File.expand_path(File.join(File.dirname(__FILE__), "..", ".."))
-REQUIRED_LIBXML_VERSION = "2.7.7"
-RECOMMENDED_LIBXML_VERSION = "2.9.3"
+REQUIRED_LIBXML_VERSION = "2.9.2"
+RECOMMENDED_LIBXML_VERSION = "2.12.0"
 
 REQUIRED_MINI_PORTILE_VERSION = "~> 2.8.2" # keep this version in sync with the one in the gemspec
 REQUIRED_PKG_CONFIG_VERSION = "~> 1.1"
@@ -1134,6 +1134,7 @@ end
 
 have_func("xmlCtxtSetOptions") # introduced in libxml2 2.13.0
 have_func("xmlCtxtGetOptions") # introduced in libxml2 2.14.0
+have_func("xmlSwitchEncodingName") # introduced in libxml2 2.13.0
 have_func("rb_category_warning") # introduced in Ruby 3.0
 
 other_library_versions_string = OTHER_LIBRARY_VERSIONS.map { |k, v| [k, v].join(":") }.join(",")

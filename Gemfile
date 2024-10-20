@@ -10,25 +10,25 @@ group :development do
   gem "rake", "13.2.1"
 
   # building extensions
-  gem "rake-compiler", "1.2.7"
-  gem "rake-compiler-dock", "1.5.1"
+  gem "rake-compiler", "1.2.8"
+  gem "rake-compiler-dock", "1.5.2"
 
   # parser generator
   gem "rexical", "1.0.8"
 
   # tests
-  gem "minitest", "5.24.1"
+  gem "minitest", "5.25.1"
   gem "minitest-parallel_fork", "2.0.0"
   gem "ruby_memcheck", "3.0.0"
   gem "rubyzip", "~> 2.3.2"
   gem "simplecov", "= 0.21.2"
 
   # rubocop
-  gem "standard", "1.39.0", require: false
+  gem "standard", "1.39.2", require: false
   gem "rubocop", "1.64.1", require: false
-  gem "rubocop-minitest", "0.35.0", require: false
+  gem "rubocop-minitest", "0.36.0", require: false
   gem "rubocop-packaging", "0.5.2", require: false
-  gem "rubocop-performance", "1.21.1", require: false
+  gem "rubocop-performance", "1.22.1", require: false
   gem "rubocop-rake", "0.6.0", require: false
 end
 
